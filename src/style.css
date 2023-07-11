@@ -657,6 +657,12 @@ button, input, textarea {
   content: '';
   width: 5rem; }
 
+@media 
+(min-width: 1300px) {
+  .chapters__list {
+    flex-wrap: wrap;
+    overflow: hidden; } }
+
 @media screen and (min-width: 1440px) {
   .chapters__list {
     flex-wrap: wrap;
